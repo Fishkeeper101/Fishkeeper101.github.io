@@ -15,7 +15,7 @@ h1, h2 {
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width:auto;
+	max-width:900px;
 	margin:10px auto;    /* centers wrapper */
 }
 img {
