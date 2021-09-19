@@ -1,0 +1,78 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+	background-color:#AECDE4;   /* background color */
+	color: #444;          /* text color for the entire page */
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1, h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+	color:#12172F
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width:auto;
+	margin:10px auto;    /* centers wrapper */
+}
+img {
+    width:90%;
+	height: auto;
+	padding:10px;
+}
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:8px;
+	text-align:center;
+	font-size:18px;
+	background-color:#F7B857
+ }
+
+.stepContent{ 
+	background-color:#F7F7FB;
+	padding:20;
+	display:inline-flex;
+	justify-content: center;
+	height:auto;
+}
+
+.stepDescription {
+	width:auto;
+	Height:auto;
+	padding:5px;
+}
+.warning {
+	background-color: #F1090D;
+	padding:10px;
+	border-radius:20px;
+}
+.lessonDescription {
+background-color:#F7F7FB;
+	padding:7px;
+	display: flex;
+	justify-content: center;
+}
+.important {
+	background-color: #EDAC30;
+	padding:10px;
+	border-radius:20px;
+}
+.stepImage{
+	align-content: center;
+	width:80%;
+}
+.rotateimg180 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  transform:rotate(90deg);
+padding:15px;
+text-align: center;
+width:auto;
+height:500px;
+	
+}
