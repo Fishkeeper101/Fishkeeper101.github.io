@@ -16,21 +16,21 @@ p {
   color: red;
 }
 a{
-    text-transform: uppercase;
-	text-align: center;
-	align-items: center;
-	background: #0E012B;
+    background: #0E012B;
     color: #ffffff;
     border: thick solid #03194D;
-    padding: 5px;
-	width:auto;
-   justify-content: center;
-	display:inline-block; 
+    padding: auto;
+    widthL: 300px;
+    display: inline-flex;
+    align-content: center;
 }
 a:hover{
 	background:#ffffff;
     color:  #0E012B;
 }
 .menubutts{
-	
+	max-width:100%;
+	margin: 10px auto;
+}
+.menubutt {
 }
