@@ -1,0 +1,48 @@
+@charset "utf-8";
+body {
+    align-content: center;
+    background-color: cadetblue;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color:gainsboro;
+	text-align: center;
+}
+#wrapper {
+max-width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #leaf{
+border: black 5px solid;
+}
+ 
+ #chlo{
+display: none;
+border: black 5px solid;
+}
+.choices {
+cursor: pointer;
+}
+
+.buttonClass {
+  font-size:24px;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color:gainsboro;
+	padding:5px;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#ffffff;
+  border-color:#124d77;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  text-shadow:inset 0px 1px 0px #154682;
+  background:linear-gradient(#007dc1, #0061a7);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#0061a7, #007dc1);
+}

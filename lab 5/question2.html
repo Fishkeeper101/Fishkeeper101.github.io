@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Chlorphyll Quiz</title>
+	<link href="css/leaf.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+ 
+$(function(){
+	$("#option1").click( function(){
+         $("#feedback").html("<h2 style='color:orange'>Not quite, but this is a trick question. Most flowers have SOME cholorphyll, usually in the buds. </h2>");
+                  $("#chlo").css("display","none");
+});
+	$("#option3").click( function(){
+                 $("#feedback").html("<h2 style='color:Green'> Correct! No need for cholorphyll when you're growing where the sun doesn't shine!</h2>");
+                 $("#chlo").css("display","inline");
+});
+ $("#option2, #option4").click( function(){
+             $("#feedback").html("<h2 style='color:darkred'> Not quite, these are green because they have so much Chlorophyll! </h2>");
+    $("#chlo").css("display","none");
+});
+});
+
+</script>
+
+	</head>
+
+<body>
+	<div id="wrapper">
+		<a href="index.html" class="buttonClass">Learn about Chlorophyll</a>
+<h1>Which part of the plant typically DOESN'T have cholophyll?</h1>
+<h3>Click on one of the following choices</h3>
+ 
+<h2 id="option1" class="choices"> Flowers</h2>
+<h2 id="option2" class="choices"> Stem </h2>
+<h2 id="option3" class="choices"> Roots </h2>
+<h2 id="option4" class="choices"> Flowers</h2>
+ 
+<div id="feedback"></div>
+<img id="chlo" src="img/Plagiomnium_affine_laminazellen.jpeg" height="300">
+</div>
+
+</body>
+</html>
