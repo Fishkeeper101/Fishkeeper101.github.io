@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+      background: White;   /* background color */
+      color: black;        /* text color */
+      font-size: 12px;
+      font-family:Verdana, Geneva, sans-serif;
+}
+
+#wrapper {
+      width:900px;
+      margin:0 auto;      /* centers wrapper */
+	/* background color */
+      text-align:center;  /* centers wrapper content */
+}
+#textbubble{
+      width:900px;
+	background: #001B17;
+	border: thick 5px #000522;
+      margin:0 auto;      /* centers wrapper */
+	/* background color */
+      text-align:center;  /* centers wrapper content */
+	border-radius:10px; /* round corners */
+    box-shadow:0px 3px 5px 5px #000; /* add shadow */
+	color:azure;
+	font-size: 18px;
+}
