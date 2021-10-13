@@ -17,9 +17,9 @@ $( function() {
          $("#feedback").html("This amount is critical - it's how the IRS verifies the donation in the event of an audit.");
 		 
       }
-	         if ($(this).attr("id") == "sig") {
-				 $("#feedback").css("color","blue");
-				 $("#feedback").html("This has to be signed by an official rep from the organization or it won't be valid in an audit.");
+	  if ($(this).attr("id") == "sig") {
+		 $("#feedback").css("color","blue");
+		 $("#feedback").html("This has to be signed by an official rep from the organization or it won't be valid in an audit.");
 				 
 			 }
 
