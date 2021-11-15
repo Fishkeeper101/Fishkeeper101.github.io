@@ -1,0 +1,43 @@
+@charset "utf-8";
+h1 {
+ text-align:center;
+font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	background-color: azure;
+	padding: 10px auto;
+	
+}
+body{
+    background-color: #9ED4DF;	
+	text-align:center;
+	align-content: center;
+}
+
+wrapper{
+max-width: 900px;
+margin: 0 auto;
+text-align: center;
+	align-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+background-color:
+}
+li {
+ display:inline-flex;
+}
+a {
+	display:block;
+	padding: 10px 30px;
+	background-color:#666EF7;
+	text-decoration-color: aliceblue;
+	color:aliceblue;
+	border-radius:25px;
+font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+li a:hover{
+	color:#F5FFAD;
+	background-color:#2F5E66;
+}
